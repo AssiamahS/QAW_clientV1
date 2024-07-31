@@ -66,4 +66,26 @@ main {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-  }
+}
+
+/* Styles for service options */
+.service-option {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.service-option:hover {
+    background-color: #f8f9fa;
+}
+
+.service-option.selected {
+    background-color: #007bff;
+    color: white;
+}
